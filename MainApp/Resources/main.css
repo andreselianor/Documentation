@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: title;
+    src: url(MPlus.ttf);
+}
+
+@font-face {
+    font-family: paragraph;
+    src: url(Raleway.ttf);
+}
+
+h1 {
+    font-family: title;
+}
+
+p {
+    font-family: paragraph;
+}
+
+.IndexDiv {
+    padding: 30px;
+
+}
+.IndexP {
+    width: 40vw;
+    text-align: justify;
+}
+
+.mainMenu {
+    border-radius: 10px;
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: aquamarine;
+}
