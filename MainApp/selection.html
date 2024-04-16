@@ -11,26 +11,72 @@
 
 <body>
     <div class="IndexDiv">
-        <p>La aplicacion tiene la utilidad de copiar todos los archivos de una ruta que se le indica al programa a otro
-            destino con la
-            utilidad que no copia elementos repetidos.
-        </p>
+        <p class="IndexP">
+            <i>¿En qué consiste <u>ndupCopy</u>?</i>
+            <br>
+            La aplicacion tiene la utilidad de copiar todos los archivos de la ruta indicada, eliminando los elementos
+            repetidos.
 
-        <p>Elija de entre la lista la informacion que quiere consultar:</p>
-        <ul>
-            <li><a href="Diagrama de clases/diagram.html">Diagrama de clases</a></li>
-            <li><a href="Program/program.html">Clase Program</a></li>
-            
-            <li><a href="IUpCopy/IUpCopy.html">Clase IUpCopy</a></li>
-            <li><a href="UpCopy/UpCopy.html">Clase upCopy</a></li>
-            <li><a href="UpFile/UpFile.html">Clase upFile</a></li>
-            
-            <li><a href="View/view.html">Clase View</a></li>
-            
-            <li><a href="Controller/controller.html">Clase Controller</a></li>
-        </ul>
+        </p>
+        <br>
+        <p class="IndexP">
+            <i>¿Cómo funciona <u>ndupCopy</u>?</i>
+            <br>
+            Se trata de una aplicación de consola, que ejecuta código fuente de C#. Utiliza el paradigma
+            de <b>Modelo-Vista-Controlador</b> de la siguiente manera:
+            <br>
+            <br>
+            El <b>Modelo</b> se construye mediante una interfaz 'upFile', que contiene las funciones que ejecutan el
+            programa,
+            mediante la sucesión de preguntas al usuario que las contesta a traves de la <b>interfaz grafica de
+                usuario</b>. Estas decisiones
+            del usuario interactuan con el controlador de la aplicación, que actualiza el modelo de datos.
+        </p>
+        <br>
+        <p class="IndexP">Elija de la siguiente lista la informacion que desea consultar:</p>
+        <br>
+        <table>
+            <tr style="vertical-align: top;">
+                <td>
+                    <ul style="padding: 0px 20px;">
+                        <li>ENTRADA</li>
+                        <li><a href="Diagrama de clases/diagram.html">Diagrama de clases</a></li>
+                        <li><a href="Program/program.html">Clase Program</a></li>
+                        <br>
+                    </ul>
+                </td>
+            </tr>
+            <tr style="vertical-align: top;">
+                <td>
+                    <ul style="padding: 0px 20px;">
+                        <li>MODELO</li>
+                        <li><a href="IUpCopy/IUpCopy.html">Clase IUpCopy</a></li>
+                        <li><a href="UpCopy/UpCopy.html">Clase upCopy</a></li>
+                        <li><a href="UpFile/UpFile.html">Clase upFile</a></li>                        
+                        <li><a href="UpPath/UpPath.html">Clase upPath</a></li>
+                    </ul>
+                </td>
+                <td>
+                    <ul style="padding: 0px 20px;">
+                        <li>VISTA</li>
+                        <li><a href="View/view.html">Clase View</a></li>
+                    </ul>
+                </td>
+                <td>
+                    <ul style="padding: 0px 20px;">
+                        <li>CONTROLADOR</li>
+                        <li><a href="Controller/controller.html">Clase Controller</a></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
     </div>
 
+    <footer>
+        <p>Andres Yves Elianor Lopez</p>
+        <p>Programacion @2024</p>
+        <p>DAM - Mare Nostrum</p>
+    </footer>
 </body>
 
 </html>

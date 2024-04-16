@@ -3,6 +3,7 @@
     padding: 0px;
 }
 
+/*#region FONTFACE*/
 @font-face {
     font-family: title;
     src: url(MPlus.ttf);
@@ -12,25 +13,31 @@
     font-family: paragraph;
     src: url(Raleway.ttf);
 }
+/*#endregion*/
+
 
 h1 {
     font-family: title;
 }
 
-p {
+p,
+a {
     font-family: paragraph;
 }
 
 .IndexDiv {
     padding: 30px;
-
 }
+
 .IndexP {
     width: 40vw;
     text-align: justify;
 }
 
 .mainMenu {
+    position:absolute;
+    position:fixed;
+    bottom: 100px;
     border-radius: 10px;
     background-color: aquamarine;
     padding: 10px;
@@ -39,6 +46,11 @@ p {
 footer {
     display: flex;
     justify-content: space-between;
-    padding: 30px;
     background-color: aquamarine;
+    padding: 15px 20px;
+    position: absolute;
+    bottom: 0;
+    width: 97vw; 
+    font-size: 10pt;  
+    border-top: solid 1px violet; 
 }
