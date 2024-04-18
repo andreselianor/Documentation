@@ -13,11 +13,24 @@
     font-family: paragraph;
     src: url(Raleway.ttf);
 }
+
 /*#endregion*/
 
+body {
+    position: relative;
+    min-height: 100vh;
+}
 
-h1 {
+h1,
+h3 {
     font-family: title;
+}
+
+h4 {
+    font-family: title;
+    font-style: italic;
+    font-size: 9pt;
+    padding-bottom: 30px;
 }
 
 p,
@@ -26,7 +39,7 @@ a {
 }
 
 .IndexDiv {
-    padding: 30px;
+    margin: 30px;
 }
 
 .IndexP {
@@ -35,9 +48,7 @@ a {
 }
 
 .mainMenu {
-    position:absolute;
-    position:fixed;
-    bottom: 100px;
+    float: right;
     border-radius: 10px;
     background-color: aquamarine;
     padding: 10px;
@@ -48,9 +59,10 @@ footer {
     justify-content: space-between;
     background-color: aquamarine;
     padding: 15px 20px;
+    font-size: 10pt;
+    border-top: solid 1px violet;
     position: absolute;
-    bottom: 0;
-    width: 97vw; 
-    font-size: 10pt;  
-    border-top: solid 1px violet; 
+    top: 100%;
+    width: 96vw;
+    margin-top: 50px;
 }

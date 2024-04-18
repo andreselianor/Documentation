@@ -13,6 +13,7 @@
     <div class="IndexDiv">
         <h1>Clase 'UpCopy'</h1>
         <h4>-DOCUMENTACION WEB-</h4>
+        <a class="mainMenu" href="../selection.html">Main Menu</a>
         <p class="IndexP">
             Esta clase, que hereda de la interfaz 'IUpCopy', contiene los metodos que ejecutan el funcionamiento del
             programa.
@@ -21,49 +22,54 @@
             de archivos.
         </p>
         <br>
-        <h4>Atributos</h4>
+        <h3>Atributos</h3>
         <p class="IndexP">
             -_controlList : List&ltUpCopy&gt<br>
             Lista de archivos de tipo 'upFile' dentro de una coleccion tipo 'List'. Aquí se encuentran todos los
             archivos listados en
             la carpeta origen.
         </p>
+        <br>
         <p class="IndexP">
             -_originFolder : string<br>
             String con la ruta de la carpeta origen de archivos.
         </p>
+        <br>
         <p class="IndexP">
             -_targetFolder : string<br>
             String con la ruta de la carpeta destino de archivos.
         </p>
         <br>
-        <h4>Funciones</h4>
+        <h3>Funciones</h3>
         <p class="IndexP">
             + SetOriginPath(originPath) : void <br>
             Establece el atributo que almacena la direccion de la carpeta original.
-            <br>
+            
         </p>
+        <br>
         <p class="IndexP">
             + SetTargetPath(targetPath) : void <br>
             Estblece el atributo que almacena la direccion de la carpeta destino.
-            <br>
+            
         </p>
+        <br>
         <p class="IndexP">
             + AddToListUpFiles() : void <br>
             Funcion que añade a la lista de control de archivos 'upFile' todos los archivos contenidos en la carpeta
             origen.
-            <br>
+            
         </p>
+        <br>
         <p class="IndexP">
             + RemoveDuplicateUpFiles() : void<br>
             Funcion que elimina los archivos duplicados.
-            <br>
+            
         </p>
+        <br>
         <p class="IndexP">
             + CopyValidUpFiles() : void<br>
             Funcion que copia en la carpeta origen, todos los archivos que se encuentran en la lista de control.
         </p>
-        <a class="mainMenu" href="../selection.html">Main Menu</a>
     </div>
 
     <footer>
