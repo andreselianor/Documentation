@@ -14,12 +14,50 @@
     <div class="IndexDiv">
         <h1>Clase 'Controller'</h1>
         <h4>- documentación web -</h4>
-        <a class="mainMenu" href="../selection.html">Main Menu</a>        
+        <a class="mainMenu" href="../selection.html">Main Menu</a>
         <p class="IndexP">
-            La utilidad de esta clase es la de <i>actualizar</i> el modelo de datos, según las instrucciones dadas por
-            el usuario.
+            Esta clase lanza la función que inicializa el programa. La función recibe un objeto de tipo modelo,
+            y una cadena de strings con las carpetas origen de los datos. Estas carpetas se introducen por la linea
+            de comandos del programa.
         </p>
         <br>
+        <p class="IndexP">
+            <b><u>~ Launch()</u> : void</b></b>
+            Crea un objeto de tipo controlador y ejecuta la función Start, que inicia la copia de archivos.
+            Recibe por parametros las direcciones de las carpetas de origen.
+        </p>
+        <br>
+        <p class="IndexP">
+            <b>- Start(IUpcopy, args) : void</b><br>
+            Inicia el proceso de listado, eliminacion de duplicados y copiado de archivos, en las carpetas que se le
+            indican
+            por parametros.
+        </p>
+        <br>
+        <p class="IndexP">
+            <b><u>~ DisplaySplashScreen()</u> : void</b><br>
+            Muestra la pantalla inicial de la aplicación.
+        </p>
+        <br>
+        <p class="IndexP">
+            <b><u>~ DisplaySetTargetFolder()</u> : string</b><br>
+            Le pregunta al usuario cual es la carpeta destino de la copia de archivos.
+        </p>
+        <br>
+        <p class="IndexP">
+            <b><u>~ DisplayKeepFolderStructure()</u> : void</b><br>
+            Le pregunta al usuario si quiere mantener la estructura de carpetas.
+        </p>
+        <br>
+        <p class="IndexP">
+            <b><u>~ DisplayCopyingFiles()</u> : void</b><br>
+            Muestra el proceso de copia de los archivos.
+        </p>
+        <br>
+        <p class="IndexP">
+            <b><u>~ DisplayExitScreen()</u> : void</b><br>
+            Muestra el mensaje de despedida.
+        </p>
     </div>
     <footer>
         <p>Andres Yves Elianor Lopez</p>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -8,20 +9,65 @@
     <link rel='stylesheet' type='text/css' media='screen' href='../Resources/main.css'>
     <link rel='icon' type='icon' href='../Resources/file.svg'>
 </head>
+
 <body>
     <div class="IndexDiv">
-        <h1>Clase 'UpFile'</h1>        
+        <h1>Clase 'UpFile'</h1>
         <a class="mainMenu" href="../selection.html">Main Menu</a>
         <h4>- documentación web -</h4>
         <p class="IndexP">
-            En esta clase almacenamos valores y atributos de cada uno de los archivos que contiene la ruta original
-            que le pasamos por parámetros.
-        </p>  
-    </div> 
+            Esta clase contiene toda la información que necesitamos del archivo que deseamos copiar, y la transforma
+            en un objeto de tipo <b>'upFile'</b>. Es más funcional trabajar con un objeto que nosotros mismos hemos
+            creado a partir
+            de la información original.
+        </p>
+        <br>
+        <p class="IndexP">
+            <b>[#] upFile ()</b><br>
+            Crea un archivo 'upFile' con atributos vacios.
+        </p>
+        <br>
+        <p class="IndexP">
+            <b>[#] upFile (upfilePath, filePath)</b><br>
+            Crea un archivo 'upFile' con una referencia a sus direcciones y el contenido del archivo.
+        </p>
+        <br>
+        <p class="IndexP">
+            <b>- file: byte[]</b><br>
+            Contiene el array de bytes con el contenido del archivo.
+        </p>
+        <br>
+        <p class="IndexP">
+            <b>- path : upFilePath</b><br>
+            Contiene una referencia a la clase 'upFilePath' donde se almacenan las direcciones completas y relativas del
+            archivo.
+        </p>
+        <br>
+        <p class="IndexP">
+            <b>- date : DateTime</b><br>
+            Almacena la fecha de creación del archivo.
+        </p>
+        <br>
+        <p class="IndexP">
+            <b>- size : int</b><br>
+            Almacena el tamaño en bytes del archivo.
+        </p>
+        <br>
+        <p class="IndexP">
+            <b>- hash : int</b><br>
+            Contiene el número hash del archivo.
+        </p>
+        <br>
+        <p class="IndexP">
+            <b>- SHA256 : string</b><br>
+            Contiene el archivo, codificado en una cadena de texto, según el algoritmo SHA256.
+        </p>
+    </div>
     <footer>
         <p>Andres Yves Elianor Lopez</p>
         <p>Programacion @2024</p>
         <p>DAM - Mare Nostrum</p>
-    </footer>    
+    </footer>
 </body>
+
 </html>
