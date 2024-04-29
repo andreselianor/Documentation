@@ -23,57 +23,61 @@
         <br>
         <p class="IndexP">
             <b>- _sourcePath : string</b><br>
-            Descripcion
+			String que contiene la ruta origen del archivo.
         </p>
         <br>
         <p class="IndexP">
             <b>- _targetPath : string</b><br>
-            Descripcion
+			String que contiene la ruta destino del archivo.
         </p>
         <br>
         <p class="IndexP">
             <b>- _partialPath : string</b><br>
-            Descripcion
+			String que contiene la ruta parcial del archivo.
         </p>
         <br>
         <p class="IndexP">
             <b>- _completeTargetPath : string</b><br>
-            Descripcion
+			String que contiene la ruta completa del archivo.
         </p>
         <br>
         <p class="IndexP">
             <b>- _fileName : string</b><br>
-            Descripcion
+			String que contiene el nombre con la extensión del archivo.
         </p>
         <br>
         <p class="IndexP">
             <b>[#]upFilePath() { }</b><br>
             Crea un archivo 'upFile' con atributos vacios.
         </p>
-        <br>
+		<p class="IndexP">
+            <b>[]Name => _fileName;</b><br>
+            Devuelve el nombre del archivo.
+        </p>
+		<br>
         <p class="IndexP">
             <b>+ SetOriginalPath(originalPath) : void</b><br>
-            Descripcion
+			Establece el string que contiene la ruta del archivo original.
         </p>
         <br>
         <p class="IndexP">
             <b>+ SetTargetPath(targetPath) : void</b><br>
-            Descripcion
+			Establece el atributo que contiene la ruta de destino de la copia.
         </p>
         <br>
         <p class="IndexP">
             <b>+ SetPartialPath(originalPath, completePath) : void</b><br>
-            Descripcion
+			Establece el atributo que contiene la ruta parcial del archivo.
         </p>
         <br>
         <p class="IndexP">
             <b>+ SetFileName(completeOriginPath) : void</b><br>
-            Descripcion
+			Establece el atributo que contiene el nombre con la extension del archivo.
         </p>
         <br>
         <p class="IndexP">
             <b>+ SetCompleteTargetPath() : void</b><br>
-            Descripcion
+			Establece la ruta completa del archivo, con la ruta parcial, la carpeta contenedora y el archivo.
         </p>
     </div>
     <footer>
